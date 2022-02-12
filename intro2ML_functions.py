@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 #inputs: weight_history (list of all w in the optimization), cost_history (list of the corresponding g(w)s), 
 #      trajectory (boolean that determines whether we are plotting the optimization as a consecutive run or as sampled points)
-def plot_descent_2d(weight_history, cost_history, trajectory = True):
+def plot_descent_2d(g, weight_history, cost_history, trajectory = True):
     fig, ax = plt.subplots(1,2) #create a plot
     
     ws = np.array(weight_history) #cast the list to a numpy array
