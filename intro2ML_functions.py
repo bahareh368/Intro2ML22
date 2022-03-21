@@ -119,8 +119,7 @@ def plot_3class(x_in,y_in):
     plt.legend()
     plt.axis('scaled')
     plt.xlabel('septal width (cm)'); plt.ylabel('septal length (cm)');
-    
-plot_3class(x0,y0)
+
 
 
 
